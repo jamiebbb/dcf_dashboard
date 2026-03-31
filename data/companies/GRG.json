@@ -3,7 +3,7 @@
   "name": "Greggs PLC",
   "sector": "Food & Beverage",
   "industry": "Food Retailers & Wholesalers",
-  "description": "The UK's leading food-on-the-go retailer with 2,500+ shops, specialising in freshly prepared bakery food and hot drinks.",
+  "description": "The UK's leading food-on-the-go retailer with 2,618 shops, specialising in freshly prepared bakery food and hot drinks. Zero debt, heavy reinvestment in store rollout.",
   "modelType": "standard",
   "freuCompanyId": 4679,
   "isin": "GB00B63QSB39",
@@ -11,27 +11,27 @@
   "currency": "GBp",
   "lastPriceUpdate": "2026-03-31",
   "dcfInputs": {
-    "projectedFCF": [155, 175, 195, 210, 225],
+    "projectedFCF": [85, 110, 135, 160, 180],
     "discountRate": 0.075,
     "terminalGrowthRate": 0.02,
-    "sharesOutstanding": 101,
-    "netDebt": -160
+    "sharesOutstanding": 102,
+    "netDebt": -125
   },
   "assumptions": {
-    "revenueDrivers": "New store openings (~150 net pa target), like-for-like sales growth from evening daypart expansion, delivery channel growth, and menu innovation.",
-    "marginDrivers": "Supply chain efficiencies from new manufacturing capacity. Food cost inflation moderating. Operating leverage from higher store volumes.",
-    "risks": "Consumer spending pressure, food cost inflation, labour market tightness, cannibalisation from rapid store rollout, competition from quick-service restaurants.",
-    "catalyst": "Evening trade expansion, delivery penetration, store count toward 3,000+ target, potential international pilot.",
+    "revenueDrivers": "New store openings (~150 net pa, targeting 3,000+), like-for-like growth from evening daypart, delivery, and menu innovation. FY2024 revenue £2,014m (+11.3%).",
+    "marginDrivers": "Underlying operating margin ~9.7% in FY2024. Supply chain efficiencies from new manufacturing capacity. Food cost inflation moderating. Wage pressure a headwind.",
+    "risks": "Heavy capex programme (£249m in FY2024) depresses traditional FCF during growth phase. Consumer spending pressure, food cost inflation, labour costs, cannibalisation risk from rapid rollout.",
+    "catalyst": "Store count approaching 3,000 target, evening trade expansion, delivery penetration, supply chain investment payback. FCF will expand as capex intensity normalises post-rollout.",
     "lastReportAnalysed": "FY2024 Annual Report (52w ended 28 Dec 2024)"
   },
   "historicalData": {
     "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
-    "revenue": [811, 1230, 1513, 1810, 1981],
-    "operatingProfit": [-13, 146, 148, 188, 168],
-    "operatingMargin": [-1.6, 11.9, 9.8, 10.4, 8.5],
-    "freeCashFlow": [55, 132, 106, 145, 130],
-    "eps": [-2.4, 110.0, 107.8, 141.2, 125.3],
-    "dividendsPerShare": [15.0, 97.0, 104.0, 118.0, 100.0]
+    "revenue": [811, 1230, 1513, 1810, 2014],
+    "operatingProfit": [-7, 153, 154, 172, 195],
+    "operatingMargin": [-0.9, 12.5, 10.2, 9.5, 9.7],
+    "freeCashFlow": [167, 208, 151, 113, 70],
+    "eps": [-12.9, 114.3, 117.5, 123.8, 137.5],
+    "dividendsPerShare": [0, 97.0, 59.0, 102.0, 69.0]
   },
   "lastUpdated": "2026-03-31"
 }
