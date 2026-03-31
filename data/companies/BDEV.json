@@ -1,0 +1,43 @@
+{
+  "ticker": "BDEV",
+  "name": "Barratt Redrow PLC",
+  "sector": "Housebuilders",
+  "industry": "Construction & Materials",
+  "description": "The UK's largest housebuilder following the 2024 merger of Barratt Developments and Redrow. Operates through Barratt Homes, David Wilson Homes, Barratt London and Redrow brands.",
+  "modelType": "housebuilder",
+  "freuCompanyId": 5259,
+  "isin": "GB0000811801",
+  "currentPrice": 480,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedCompletions": [17500, 18500, 19500, 20000, 20500],
+    "projectedASP": [352000, 362000, 372000, 382000, 392000],
+    "projectedMargin": [10.0, 11.5, 13.0, 14.0, 14.5],
+    "landBankValue": 5105,
+    "landBankYearsSupply": 4.8,
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 1440,
+    "netDebt": -773
+  },
+  "assumptions": {
+    "revenueDrivers": "Combined group completions recovering toward 20k+ level. ASP growth ~2.5% pa from mix shift and house price inflation. Redrow's premium positioning lifts blended ASP.",
+    "marginDrivers": "Operating margin recovery from cyclical trough as volumes normalise. Integration synergies from Redrow merger (targeted £90m pa). Legacy building safety costs declining.",
+    "risks": "Interest rate sensitivity, planning delays, land cost inflation, mortgage affordability constraints, integration execution risk, legacy cladding liabilities.",
+    "catalyst": "Volume recovery, mortgage rate stabilisation, synergy realisation, land bank optionality, dividend cover policy change to 2x from FY26.",
+    "lastReportAnalysed": "Annual Report 2025 (52w ended 29 Jun 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [4812, 5268, 5321, 4168, 5578],
+    "completions": [17243, 17908, 17206, 14004, 16565],
+    "operatingProfit": [811, 647, 707, 175, 286],
+    "operatingMargin": [16.9, 12.3, 13.3, 4.2, 5.1],
+    "eps": [64.9, 50.6, 53.2, 11.8, 13.6],
+    "dividendsPerShare": [29.4, 36.9, 33.7, 16.2, 17.6],
+    "netAssetValue": [5452, 5631, 5596, 5439, 7873],
+    "returnOnEquity": [27.8, 30.0, 22.2, 9.5, 9.0]
+  },
+  "lastUpdated": "2026-03-31"
+}

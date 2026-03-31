@@ -19,6 +19,8 @@ const COLORS = {
   margin: "#fbbf24",
   fcf: "#a78bfa",
   completions: "#f472b6",
+  dividends: "#38bdf8",
+  eps: "#818cf8",
 };
 
 function CustomTooltip({ active, payload, label }) {
@@ -44,7 +46,6 @@ export default function HistoricalChart({ company }) {
   const hist = company.historicalData;
   if (!hist?.years) return null;
 
-  // Build chart data from historicals
   const data = hist.years.map((year, i) => ({
     year,
     Revenue: hist.revenue?.[i],
@@ -53,16 +54,18 @@ export default function HistoricalChart({ company }) {
     FCF: hist.freeCashFlow?.[i],
     Completions: hist.completions?.[i],
     EPS: hist.eps?.[i],
+    "DPS (p)": hist.dividendsPerShare?.[i],
   }));
 
   const isHousebuilder = company.modelType === "housebuilder";
+  const hasDividends = hist.dividendsPerShare?.some((d) => d > 0);
 
   return (
     <div className="space-y-6">
       {/* Revenue & Profit chart */}
       <div className="rounded-2xl border border-white/5 bg-[var(--bg-card)] p-5">
         <h3 className="font-display text-lg mb-1">Revenue & Profitability</h3>
-        <p className="text-xs text-slate-500 mb-4">£m</p>
+        <p className="text-xs text-slate-500 mb-4">\u00A3m</p>
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data} barGap={4}>
@@ -77,9 +80,7 @@ export default function HistoricalChart({ company }) {
                 axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
               />
               <Tooltip content={<CustomTooltip />} />
-              <Legend
-                wrapperStyle={{ fontSize: 11, color: "#94a3b8" }}
-              />
+              <Legend wrapperStyle={{ fontSize: 11, color: "#94a3b8" }} />
               <Bar
                 dataKey="Revenue"
                 fill={COLORS.revenue}
@@ -97,13 +98,13 @@ export default function HistoricalChart({ company }) {
         </div>
       </div>
 
-      {/* Margin / FCF trend */}
+      {/* Margin / FCF or Completions trend */}
       <div className="rounded-2xl border border-white/5 bg-[var(--bg-card)] p-5">
         <h3 className="font-display text-lg mb-1">
           {isHousebuilder ? "Margin & Completions" : "Margin & Free Cash Flow"}
         </h3>
         <p className="text-xs text-slate-500 mb-4">
-          {isHousebuilder ? "Op. margin (%) and units completed" : "Op. margin (%) and FCF (£m)"}
+          {isHousebuilder ? "Op. margin (%) and units completed" : "Op. margin (%) and FCF (\u00A3m)"}
         </p>
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
@@ -149,6 +150,44 @@ export default function HistoricalChart({ company }) {
           </ResponsiveContainer>
         </div>
       </div>
+
+      {/* EPS & Dividends chart */}
+      {hasDividends && (
+        <div className="rounded-2xl border border-white/5 bg-[var(--bg-card)] p-5">
+          <h3 className="font-display text-lg mb-1">EPS & Dividends</h3>
+          <p className="text-xs text-slate-500 mb-4">Pence per share</p>
+          <div className="h-64">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={data} barGap={4}>
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.04)" />
+                <XAxis
+                  dataKey="year"
+                  tick={{ fill: "#64748b", fontSize: 11 }}
+                  axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+                />
+                <YAxis
+                  tick={{ fill: "#64748b", fontSize: 11 }}
+                  axisLine={{ stroke: "rgba(255,255,255,0.06)" }}
+                />
+                <Tooltip content={<CustomTooltip />} />
+                <Legend wrapperStyle={{ fontSize: 11, color: "#94a3b8" }} />
+                <Bar
+                  dataKey="EPS"
+                  fill={COLORS.eps}
+                  radius={[4, 4, 0, 0]}
+                  opacity={0.8}
+                />
+                <Bar
+                  dataKey="DPS (p)"
+                  fill={COLORS.dividends}
+                  radius={[4, 4, 0, 0]}
+                  opacity={0.8}
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

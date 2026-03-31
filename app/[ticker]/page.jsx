@@ -1,14 +1,9 @@
 import { notFound } from "next/navigation";
 import { getAllCompanies, getCompanyByTicker } from "@/lib/companies";
-import DCFSummary from "@/components/DCFSummary";
-import SensitivityMatrix from "@/components/SensitivityMatrix";
-import HistoricalChart from "@/components/HistoricalChart";
-import ProjectedCashFlows from "@/components/ProjectedCashFlows";
-import AssumptionsPanel from "@/components/AssumptionsPanel";
+import InteractiveDCF from "@/components/InteractiveDCF";
 
 export const revalidate = 3600;
 
-// Pre-generate pages for all known companies at build time
 export function generateStaticParams() {
   const companies = getAllCompanies();
   return companies.map((c) => ({ ticker: c.ticker }));
@@ -52,7 +47,7 @@ export default function CompanyPage({ params }) {
           </span>
           {company.freuCompanyId && (
             <span className="text-xs px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400">
-              📄 Linked to Financial Reports EU
+              Linked to Financial Reports EU
             </span>
           )}
         </div>
@@ -62,37 +57,13 @@ export default function CompanyPage({ params }) {
         <p className="text-slate-400 max-w-2xl">{company.description}</p>
       </div>
 
-      {/* DCF Summary — the hero card */}
-      <section className="mb-10">
-        <DCFSummary company={company} />
-      </section>
-
-      {/* Projected Cash Flows table */}
-      <section className="mb-10">
-        <ProjectedCashFlows company={company} />
-      </section>
-
-      {/* Sensitivity Matrix */}
-      <section className="mb-10">
-        <SensitivityMatrix company={company} />
-      </section>
-
-      {/* Historical Charts */}
-      <section className="mb-10">
-        <HistoricalChart company={company} />
-      </section>
-
-      {/* Assumptions */}
-      <section className="mb-10">
-        <AssumptionsPanel company={company} />
-      </section>
+      {/* Interactive DCF — sliders + all DCF sections */}
+      <InteractiveDCF company={company} />
 
       {/* Filing link */}
       {company.freuCompanyId && (
-        <section className="rounded-2xl border border-white/5 bg-[var(--bg-card)] p-6">
-          <h3 className="font-display text-lg mb-3">
-            Source Documents
-          </h3>
+        <section className="mt-10 rounded-2xl border border-white/5 bg-[var(--bg-card)] p-6">
+          <h3 className="font-display text-lg mb-3">Source Documents</h3>
           <p className="text-sm text-slate-400 mb-4">
             This model is built from regulatory filings sourced via Financial
             Reports EU. View the original annual reports and financial
@@ -104,7 +75,7 @@ export default function CompanyPage({ params }) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500/10 text-blue-400 text-sm hover:bg-blue-500/20 transition-colors"
           >
-            View all filings on Financial Reports EU →
+            View all filings on Financial Reports EU
           </a>
         </section>
       )}

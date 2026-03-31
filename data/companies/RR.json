@@ -12,8 +12,8 @@
   "lastPriceUpdate": "2026-03-31",
   "dcfInputs": {
     "projectedFCF": [1200, 1450, 1700, 1900, 2100],
-    "discountRate": 0.095,
-    "terminalGrowthRate": 0.025,
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
     "sharesOutstanding": 8400,
     "netDebt": 1800
   },
@@ -30,7 +30,8 @@
     "operatingProfit": [-990, 652, 1590, 2100, 2500],
     "operatingMargin": [-8.8, 4.8, 10.3, 12.4, 13.7],
     "freeCashFlow": [-1500, 505, 1280, 1600, 1900],
-    "eps": [-14, 5.2, 14.8, 20.1, 24.5]
+    "eps": [-14, 5.2, 14.8, 20.1, 24.5],
+    "dividendsPerShare": [0, 0, 0, 6, 8]
   },
   "lastUpdated": "2026-03-31"
 }

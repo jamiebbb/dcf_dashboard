@@ -62,6 +62,34 @@ body::before {
   animation: pulse-red 3s ease-in-out infinite;
 }
 
+/* Range slider */
+.slider-track {
+  background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.12));
+}
+.slider-track::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #60a5fa;
+  border: 2px solid #0a0f1c;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.3);
+  transition: box-shadow 0.2s;
+}
+.slider-track::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 12px rgba(96, 165, 250, 0.5);
+}
+.slider-track::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #60a5fa;
+  border: 2px solid #0a0f1c;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(96, 165, 250, 0.3);
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
