@@ -1,0 +1,36 @@
+{
+  "ticker": "RR",
+  "name": "Rolls-Royce Holdings PLC",
+  "sector": "Aerospace & Defence",
+  "industry": "Industrials",
+  "description": "A global leader in power systems for aviation, naval and energy markets.",
+  "modelType": "standard",
+  "freuCompanyId": null,
+  "isin": "GB00B63H8491",
+  "currentPrice": 545,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [1200, 1450, 1700, 1900, 2100],
+    "discountRate": 0.095,
+    "terminalGrowthRate": 0.025,
+    "sharesOutstanding": 8400,
+    "netDebt": 1800
+  },
+  "assumptions": {
+    "revenueDrivers": "Civil aerospace recovery driving engine flying hours. Defence order book growth. Power Systems margin expansion.",
+    "marginDrivers": "Structural cost reductions, shift to higher-margin aftermarket. Large engine delivery ramp-up.",
+    "risks": "Supply chain disruption, widebody recovery pace, FX exposure, legacy engine warranty costs.",
+    "catalyst": "Engine flying hours exceeding pre-COVID. Defence budget increases across NATO. Share buyback programme.",
+    "lastReportAnalysed": "FY2025 Annual Report"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [11222, 13520, 15400, 16900, 18200],
+    "operatingProfit": [-990, 652, 1590, 2100, 2500],
+    "operatingMargin": [-8.8, 4.8, 10.3, 12.4, 13.7],
+    "freeCashFlow": [-1500, 505, 1280, 1600, 1900],
+    "eps": [-14, 5.2, 14.8, 20.1, 24.5]
+  },
+  "lastUpdated": "2026-03-31"
+}
