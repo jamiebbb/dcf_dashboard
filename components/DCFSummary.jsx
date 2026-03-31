@@ -140,7 +140,41 @@ export default function DCFSummary({ company }) {
           <div>
             <span className="text-slate-500">Model Type</span>
             <div className="font-mono text-slate-300 capitalize">
-              {company.modelType}
+              {company.modelType} · mid-year
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Cross-check metrics — investment banking sanity checks */}
+      <div className="rounded-xl bg-white/[0.03] border border-white/5 p-4">
+        <div className="text-[10px] uppercase tracking-widest text-slate-500 mb-3">
+          Valuation Cross-Checks
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+          <div>
+            <span className="text-slate-500">TV % of EV</span>
+            <div className={`font-mono ${result.tvPctOfEV > 75 ? "text-amber-400" : "text-slate-300"}`}>
+              {result.tvPctOfEV}%
+              {result.tvPctOfEV > 75 && <span className="text-[10px] ml-1">⚠</span>}
+            </div>
+          </div>
+          <div>
+            <span className="text-slate-500">Implied Exit Multiple</span>
+            <div className="font-mono text-slate-300">
+              {result.impliedExitMultiple ? `${result.impliedExitMultiple}x FCF` : "—"}
+            </div>
+          </div>
+          <div>
+            <span className="text-slate-500">Implied FCF Yield</span>
+            <div className="font-mono text-slate-300">
+              {result.impliedFCFYield ? `${result.impliedFCFYield}%` : "—"}
+            </div>
+          </div>
+          <div>
+            <span className="text-slate-500">PV of FCFs vs TV</span>
+            <div className="font-mono text-slate-300">
+              {fmt(result.pvFCF)} / {fmt(result.pvTerminal)}
             </div>
           </div>
         </div>
