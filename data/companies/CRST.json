@@ -3,7 +3,7 @@
   "name": "Crest Nicholson Holdings PLC",
   "sector": "Housebuilders",
   "industry": "Construction & Materials",
-  "description": "A housebuilder focused on sustainable homes and master-planned communities across southern England, with a recovery plan following operational challenges.",
+  "description": "A housebuilder focused on sustainable homes and master-planned communities across southern England. Significant exceptional charges from combustible materials remediation. Going concern material uncertainty flagged.",
   "modelType": "housebuilder",
   "freuCompanyId": 5319,
   "isin": "GB00B8VZXT93",
@@ -11,31 +11,31 @@
   "currency": "GBp",
   "lastPriceUpdate": "2026-03-31",
   "dcfInputs": {
-    "projectedCompletions": [2200, 2500, 2800, 3100, 3300],
-    "projectedASP": [365000, 372000, 380000, 388000, 396000],
+    "projectedCompletions": [2000, 2200, 2500, 2800, 3000],
+    "projectedASP": [350000, 358000, 366000, 374000, 382000],
     "projectedMargin": [6.0, 8.0, 10.0, 11.5, 12.0],
-    "landBankValue": 1200,
-    "landBankYearsSupply": 5.5,
+    "landBankValue": 1137,
+    "landBankYearsSupply": 7.4,
     "discountRate": 0.075,
     "terminalGrowthRate": 0.02,
-    "sharesOutstanding": 257,
-    "netDebt": -30
+    "sharesOutstanding": 256,
+    "netDebt": 9
   },
   "assumptions": {
-    "revenueDrivers": "Volume recovery from cyclical trough toward 3,000+ completions. Focused on southern England markets with higher ASPs. Strategic land pipeline conversion.",
-    "marginDrivers": "Margin recovery from very depressed levels. New CEO driving operational turnaround. Build cost efficiencies and improved site productivity. Legacy ground remediation costs declining.",
-    "risks": "Execution risk on turnaround plan, interest rate sensitivity, southern England land prices, planning delays, balance sheet constraints limiting land investment, takeover target risk.",
-    "catalyst": "Volume recovery, margin normalisation, planning reform benefits, potential M&A interest from larger builders.",
+    "revenueDrivers": "Volume recovery from 1,873 completions toward 3,000. Open market ASP £403k. 31,635 plot land bank (£11.5bn GDV pipeline). Average 44 sales outlets.",
+    "marginDrivers": "Adjusted operating margin recovery from 5.1% trough. Gross margin 14% in FY2024, land portfolio forecast gross margin 23%. Cost efficiency and volume leverage needed.",
+    "risks": "Going concern material uncertainty flagged by auditors. £160m exceptional charges in FY2024 (combustible materials £132m). Net debt £8.5m vs net cash £277m two years ago. Covenant breach risk in downside scenario. Heavy land creditors (£132m).",
+    "catalyst": "Volume recovery, margin normalisation, resolution of combustible materials liabilities, planning reform benefits. Potential M&A target for larger builders.",
     "lastReportAnalysed": "FY2024 Annual Report (year ended 31 Oct 2024)"
   },
   "historicalData": {
     "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
-    "revenue": [733, 866, 942, 619, 526],
-    "completions": [1950, 2407, 2734, 1786, 1604],
-    "operatingProfit": [15, 113, 128, -18, -35],
-    "operatingMargin": [2.0, 13.0, 13.6, -2.9, -6.7],
-    "eps": [1.5, 31.0, 37.5, -11.0, -18.0],
-    "dividendsPerShare": [0, 11.5, 16.6, 3.3, 0]
+    "revenue": [678, 787, 914, 658, 618],
+    "completions": [2247, 2407, 2734, 2020, 1873],
+    "operatingProfit": [57, 115, 141, 51, 31],
+    "operatingMargin": [8.4, 14.6, 15.4, 7.7, 5.1],
+    "eps": [14.6, 34.0, 42.5, 14.2, 5.6],
+    "dividendsPerShare": [0, 0, 11.5, 17.0, 2.2]
   },
   "lastUpdated": "2026-03-31"
 }
