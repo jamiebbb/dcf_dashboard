@@ -1,0 +1,37 @@
+{
+  "ticker": "EZJ",
+  "name": "easyJet PLC",
+  "sector": "Travel & Leisure",
+  "industry": "Airlines",
+  "description": "Europe's leading low-cost airline with 356 Airbus A320 family aircraft, 93.4m passengers in FY2025. Also operates easyJet holidays (£250m PBT). Net cash £602m, investment grade rated.",
+  "modelType": "standard",
+  "freuCompanyId": 5295,
+  "isin": "GB00B7KR2P84",
+  "currentPrice": 550,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [600, 650, 700, 750, 800],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 758,
+    "netDebt": -602
+  },
+  "assumptions": {
+    "revenueDrivers": "Revenue £10,106m in FY2025 (+9%). Capacity 104m seats (+4%). easyJet holidays £1,440m revenue (+27%). 17 new A320neo deliveries in FY26. Medium-term target >£1bn PBT.",
+    "marginDrivers": "Headline EBIT margin 7.0% (up from 6.4%). CASK ex-fuel down 1% to 4.46p. Fleet modernisation with NEO 15-25% more fuel efficient. Holidays now 38% of Group PBT at £250m.",
+    "risks": "Fuel price volatility (24% of costs), ATC delays, winter losses, SAF mandates, geopolitical risks, FX exposure. COVID showed extreme downside (FY2021 loss £1,036m).",
+    "catalyst": "Fleet upgauging (290 new aircraft on order), holidays target £450m PBT by FY30, ROCE 18.0%, net cash £602m, investment grade (Baa2/BBB+).",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 30 Sep 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [1458, 5769, 8171, 9309, 10106],
+    "operatingProfit": [-1036, 3, 476, 597, 703],
+    "operatingMargin": [-71.1, 0.1, 5.8, 6.4, 7.0],
+    "freeCashFlow": [536, 536, 536, 536, 624],
+    "eps": [-166.9, -19.6, 45.4, 61.3, 66.4],
+    "dividendsPerShare": [0, 4.5, 12.1, 13.2, 1.0]
+  },
+  "lastUpdated": "2026-03-31"
+}
