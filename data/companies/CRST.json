@@ -7,13 +7,31 @@
   "modelType": "housebuilder",
   "freuCompanyId": 5319,
   "isin": "GB00B8VZXT93",
-  "currentPrice": 180,
+  "currentPrice": 149,
   "currency": "GBp",
-  "lastPriceUpdate": "2026-03-31",
+  "lastPriceUpdate": "2026-03-30",
   "dcfInputs": {
-    "projectedCompletions": [2000, 2200, 2500, 2800, 3000],
-    "projectedASP": [350000, 358000, 366000, 374000, 382000],
-    "projectedMargin": [6.0, 8.0, 10.0, 11.5, 12.0],
+    "projectedCompletions": [
+      2000,
+      2200,
+      2500,
+      2800,
+      3000
+    ],
+    "projectedASP": [
+      350000,
+      358000,
+      366000,
+      374000,
+      382000
+    ],
+    "projectedMargin": [
+      6,
+      8,
+      10,
+      11.5,
+      12
+    ],
     "landBankValue": 1137,
     "landBankYearsSupply": 7.4,
     "discountRate": 0.075,
@@ -29,13 +47,55 @@
     "lastReportAnalysed": "FY2024 Annual Report (year ended 31 Oct 2024)"
   },
   "historicalData": {
-    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
-    "revenue": [678, 787, 914, 658, 618],
-    "completions": [2247, 2407, 2734, 2020, 1873],
-    "operatingProfit": [57, 115, 141, 51, 31],
-    "operatingMargin": [8.4, 14.6, 15.4, 7.7, 5.1],
-    "eps": [14.6, 34.0, 42.5, 14.2, 5.6],
-    "dividendsPerShare": [0, 0, 11.5, 17.0, 2.2]
+    "years": [
+      "FY2020",
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024"
+    ],
+    "revenue": [
+      678,
+      787,
+      914,
+      658,
+      618
+    ],
+    "completions": [
+      2247,
+      2407,
+      2734,
+      2020,
+      1873
+    ],
+    "operatingProfit": [
+      57,
+      115,
+      141,
+      51,
+      31
+    ],
+    "operatingMargin": [
+      8.4,
+      14.6,
+      15.4,
+      7.7,
+      5.1
+    ],
+    "eps": [
+      14.6,
+      34,
+      42.5,
+      14.2,
+      5.6
+    ],
+    "dividendsPerShare": [
+      0,
+      0,
+      11.5,
+      17,
+      2.2
+    ]
   },
   "lastUpdated": "2026-03-31"
 }

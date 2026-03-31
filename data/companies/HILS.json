@@ -7,11 +7,17 @@
   "modelType": "standard",
   "freuCompanyId": 4647,
   "isin": "GB0004270301",
-  "currentPrice": 2200,
+  "currentPrice": 2060,
   "currency": "GBp",
-  "lastPriceUpdate": "2026-03-31",
+  "lastPriceUpdate": "2026-03-20",
   "dcfInputs": {
-    "projectedFCF": [115, 120, 130, 140, 150],
+    "projectedFCF": [
+      115,
+      120,
+      130,
+      140,
+      150
+    ],
     "discountRate": 0.075,
     "terminalGrowthRate": 0.02,
     "sharesOutstanding": 80.4,
@@ -25,13 +31,55 @@
     "lastReportAnalysed": "FY2024 Annual Report (year ended 31 Dec 2024)"
   },
   "historicalData": {
-    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
-    "revenue": [588, 625, 732, 830, 855],
-    "operatingProfit": [65, 77, 97, 123, 144],
-    "operatingMargin": [11.0, 12.4, 13.3, 14.8, 16.8],
-    "freeCashFlow": [65, 77, 97, 105, 109],
-    "eps": [57.9, 70.0, 85.4, 105.4, 122.6],
-    "dividendsPerShare": [26.7, 31.0, 35.0, 43.0, 49.0]
+    "years": [
+      "FY2020",
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024"
+    ],
+    "revenue": [
+      588,
+      625,
+      732,
+      830,
+      855
+    ],
+    "operatingProfit": [
+      65,
+      77,
+      97,
+      123,
+      144
+    ],
+    "operatingMargin": [
+      11,
+      12.4,
+      13.3,
+      14.8,
+      16.8
+    ],
+    "freeCashFlow": [
+      65,
+      77,
+      97,
+      105,
+      109
+    ],
+    "eps": [
+      57.9,
+      70,
+      85.4,
+      105.4,
+      122.6
+    ],
+    "dividendsPerShare": [
+      26.7,
+      31,
+      35,
+      43,
+      49
+    ]
   },
   "lastUpdated": "2026-03-31"
 }

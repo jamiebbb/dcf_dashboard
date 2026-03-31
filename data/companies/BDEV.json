@@ -7,13 +7,31 @@
   "modelType": "housebuilder",
   "freuCompanyId": 5259,
   "isin": "GB0000811801",
-  "currentPrice": 480,
+  "currentPrice": 256,
   "currency": "GBp",
-  "lastPriceUpdate": "2026-03-31",
+  "lastPriceUpdate": "2026-03-30",
   "dcfInputs": {
-    "projectedCompletions": [17500, 18500, 19500, 20000, 20500],
-    "projectedASP": [352000, 362000, 372000, 382000, 392000],
-    "projectedMargin": [10.0, 11.5, 13.0, 14.0, 14.5],
+    "projectedCompletions": [
+      17500,
+      18500,
+      19500,
+      20000,
+      20500
+    ],
+    "projectedASP": [
+      352000,
+      362000,
+      372000,
+      382000,
+      392000
+    ],
+    "projectedMargin": [
+      10,
+      11.5,
+      13,
+      14,
+      14.5
+    ],
     "landBankValue": 5105,
     "landBankYearsSupply": 4.8,
     "discountRate": 0.075,
@@ -29,15 +47,69 @@
     "lastReportAnalysed": "Annual Report 2025 (52w ended 29 Jun 2025)"
   },
   "historicalData": {
-    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
-    "revenue": [4812, 5268, 5321, 4168, 5578],
-    "completions": [17243, 17908, 17206, 14004, 16565],
-    "operatingProfit": [811, 647, 707, 175, 286],
-    "operatingMargin": [16.9, 12.3, 13.3, 4.2, 5.1],
-    "eps": [64.9, 50.6, 53.2, 11.8, 13.6],
-    "dividendsPerShare": [29.4, 36.9, 33.7, 16.2, 17.6],
-    "netAssetValue": [5452, 5631, 5596, 5439, 7873],
-    "returnOnEquity": [27.8, 30.0, 22.2, 9.5, 9.0]
+    "years": [
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024",
+      "FY2025"
+    ],
+    "revenue": [
+      4812,
+      5268,
+      5321,
+      4168,
+      5578
+    ],
+    "completions": [
+      17243,
+      17908,
+      17206,
+      14004,
+      16565
+    ],
+    "operatingProfit": [
+      811,
+      647,
+      707,
+      175,
+      286
+    ],
+    "operatingMargin": [
+      16.9,
+      12.3,
+      13.3,
+      4.2,
+      5.1
+    ],
+    "eps": [
+      64.9,
+      50.6,
+      53.2,
+      11.8,
+      13.6
+    ],
+    "dividendsPerShare": [
+      29.4,
+      36.9,
+      33.7,
+      16.2,
+      17.6
+    ],
+    "netAssetValue": [
+      5452,
+      5631,
+      5596,
+      5439,
+      7873
+    ],
+    "returnOnEquity": [
+      27.8,
+      30,
+      22.2,
+      9.5,
+      9
+    ]
   },
   "lastUpdated": "2026-03-31"
 }
