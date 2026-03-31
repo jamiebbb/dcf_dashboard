@@ -1,14 +1,13 @@
 import { getAllCompanies, getAllSectors } from "@/lib/companies";
 import { runDCF, calcMarginOfSafety } from "@/lib/dcf";
-import CompanyCard from "@/components/CompanyCard";
+import CompanyGrid from "@/components/CompanyGrid";
 
-export const revalidate = 3600; // Revalidate every hour
+export const revalidate = 3600;
 
 export default function HomePage() {
   const companies = getAllCompanies();
   const sectors = getAllSectors();
 
-  // Pre-calculate margins for sorting/stats
   const enriched = companies.map((c) => {
     const result = runDCF(c);
     const iv = result?.intrinsicValuePerShare;
@@ -77,22 +76,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Sector filter pills — client-side filtering would go here */}
-      <div className="flex flex-wrap gap-2 mb-8">
-        <span className="px-3 py-1.5 rounded-full text-xs bg-white/10 text-white cursor-pointer">
-          All
-        </span>
-        {sectors.map((sector) => (
-          <span
-            key={sector}
-            className="px-3 py-1.5 rounded-full text-xs bg-white/[0.04] text-slate-400 hover:bg-white/[0.08] hover:text-slate-200 cursor-pointer transition-colors"
-          >
-            {sector}
-          </span>
-        ))}
-      </div>
-
-      {/* Company grid */}
+      {/* Interactive grid with search + sector filters */}
       {companies.length === 0 ? (
         <div className="text-center py-24 text-slate-500">
           <div className="text-4xl mb-4">📊</div>
@@ -106,13 +90,7 @@ export default function HomePage() {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {enriched
-            .sort((a, b) => (b.marginOfSafety || 0) - (a.marginOfSafety || 0))
-            .map((company) => (
-              <CompanyCard key={company.ticker} company={company} />
-            ))}
-        </div>
+        <CompanyGrid companies={enriched} sectors={sectors} />
       )}
 
       {/* Roadmap note */}
@@ -121,9 +99,9 @@ export default function HomePage() {
           Roadmap
         </div>
         <p className="text-slate-400 text-sm max-w-lg mx-auto">
-          Working toward full FTSE 250 coverage. Next: interactive DCF
-          adjustment, live share price streaming, auto-update from Financial
-          Reports EU webhooks, and sector comparison views.
+          Working toward full FTSE 250 coverage. Next: live share price
+          streaming, auto-update from Financial Reports EU webhooks, and sector
+          comparison views.
         </p>
       </div>
     </div>
