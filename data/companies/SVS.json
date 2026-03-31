@@ -1,0 +1,37 @@
+{
+  "ticker": "SVS",
+  "name": "Savills PLC",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
+  "description": "A global real estate services group providing advisory, property management, consultancy and investment management services across 70+ countries with 42,000+ staff. Revenue streams include transaction advisory (36%), property & facilities management (39%), consultancy (21%) and investment management (4%).",
+  "modelType": "standard",
+  "freuCompanyId": 4850,
+  "isin": "GB00B135BJ46",
+  "currentPrice": 1200,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [120, 135, 150, 160, 170],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 136,
+    "netDebt": -176
+  },
+  "assumptions": {
+    "revenueDrivers": "Global real estate transaction volumes recovery driving Transaction Advisory (36% of revenue). Less transactional businesses (Property Management 39%, Consultancy 21%) provide resilient base. Revenue £2,404m in FY2024 (+7% YoY). Geographic mix: UK 42%, Asia Pacific 29%, CEME 16%, North America 13%.",
+    "marginDrivers": "Underlying profit margin expanded to 5.4% in FY2024 (from 4.2% in FY2023) driven by operational leverage in recovering transactional markets and benefits of prior restructuring. Peak margin was 9.3% in FY2021. Partnership-style remuneration model aligns cost base with revenue cycles.",
+    "risks": "Highly cyclical transactional revenues (36% of group). Sensitivity to interest rates and debt costs impacting real estate transaction volumes. Geographic and currency exposure (58% non-UK revenue). Post-pandemic office utilisation uncertainty in some markets. Restructuring costs of £17.2m in FY2024.",
+    "catalyst": "Continued global real estate market recovery. Re-financing driven transaction activity. Sustainability-driven demand for Grade A office space. Strategic acquisitions supported by strong balance sheet (£176m net cash). AUM growth in Investment Management (£21.7bn). UK revenue crossed £1bn milestone in FY2024.",
+    "lastReportAnalysed": "FY2024 Annual Report (year ended 31 Dec 2024)"
+  },
+  "historicalData": {
+    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
+    "revenue": [1740.5, 2147.0, 2298.3, 2238.0, 2404.0],
+    "operatingProfit": [96.6, 200.3, 164.6, 94.8, 130.4],
+    "operatingMargin": [5.6, 9.3, 7.2, 4.2, 5.4],
+    "freeCashFlow": [241.4, 302.7, 164.0, 18.8, 158.6],
+    "eps": [56.8, 116.5, 94.9, 55.1, 66.2],
+    "dividendsPerShare": [17.0, 34.35, 35.6, 22.8, 30.2]
+  },
+  "lastUpdated": "2026-03-31"
+}
