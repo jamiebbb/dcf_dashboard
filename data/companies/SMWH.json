@@ -1,0 +1,37 @@
+{
+  "ticker": "SMWH",
+  "name": "WH Smith PLC",
+  "sector": "Retail",
+  "industry": "General Retailers",
+  "description": "Global travel retailer operating 1,280 stores in airports, railway stations and hospitals across UK, North America and ROW. Sold High Street business in June 2025. FCA investigation ongoing re North America supplier income.",
+  "modelType": "standard",
+  "freuCompanyId": 5309,
+  "isin": "GB00B2PDGW16",
+  "currentPrice": 950,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [70, 80, 90, 100, 110],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 126,
+    "netDebt": 390
+  },
+  "assumptions": {
+    "revenueDrivers": "Revenue £1,553m in FY2025 (+5.4%). Pure-play travel retailer post High Street disposal. 1,280 stores globally. UK growing, North America expanding (362 stores), ROW diversifying.",
+    "marginDrivers": "Headline trading margin 10.2% in FY2025 (down from 11.5%). North America margin compressed to 4% from supplier income restatement. UK margin strong at 15.6%. Recovery expected as NA normalises.",
+    "risks": "FCA investigation into North America supplier income. Convertible bonds £327m maturing May 2026. Net debt £390m pre-IFRS 16 (£874m inc. leases). North America margin uncertainty. Air travel demand cyclicality.",
+    "catalyst": "Pure-play travel focus post High Street sale. North America margin recovery. Global travel growth. Replacement financing secured for convertible bonds. £50m buyback initiated.",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Aug 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2024", "FY2025"],
+    "revenue": [1473, 1553],
+    "operatingProfit": [170, 159],
+    "operatingMargin": [11.5, 10.2],
+    "freeCashFlow": [35, 63],
+    "eps": [60.3, 43.4],
+    "dividendsPerShare": [33.6, 17.3]
+  },
+  "lastUpdated": "2026-03-31"
+}
