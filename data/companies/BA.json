@@ -1,0 +1,85 @@
+{
+  "ticker": "BA.",
+  "name": "BAE Systems PLC",
+  "sector": "Aerospace & Defence",
+  "industry": "Defence",
+  "description": "One of the world's largest defence and security companies, providing advanced technology-led solutions across air, maritime, land, cyber and space domains for military and government customers globally.",
+  "modelType": "standard",
+  "freuCompanyId": 4670,
+  "isin": "GB0002634946",
+  "currentPrice": 1450,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [
+      1100,
+      2600,
+      2800,
+      3000,
+      3200
+    ],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 2996,
+    "netDebt": 4945
+  },
+  "assumptions": {
+    "revenueDrivers": "Record order backlog of £77.8bn (funded and unfunded) underpins multi-year visibility. Sales grew 14% in FY2024 to £28.3bn driven by all segments. Ball Aerospace acquisition (Feb 2024, $5.5bn) added Space & Mission Systems. NATO defence spending increases, AUKUS submarine programme, GCAP fighter jet programme, and elevated global threat environment support sustained demand.",
+    "marginDrivers": "Return on sales stable at 10.6% in FY2024. Guidance for 2025: underlying EBIT growth 8-10%, sales growth 7-9%. Improving mix as higher-margin Electronic Systems grows. Ball Aerospace integration delivering cost synergies.",
+    "risks": "Elevated net debt at £4,945m post Ball Aerospace acquisition (FY2023: £1,022m). Geopolitical uncertainty, FX sensitivity ($1.28/GBP — 5c move impacts EBIT by c.£75m). Supply chain pressures in microelectronics. Large pension schemes. Regulatory and export licensing risks.",
+    "catalyst": "NATO defence budget increases above 2% GDP target. AUKUS submarine programme ramp-up. GCAP sixth-generation fighter programme. Strong free cash flow guidance (2025 >£1.1bn, depressed by Ball Aerospace integration). Share buyback programme (£1.5bn authorised 2023). DPS increased for 21st consecutive year.",
+    "lastReportAnalysed": "FY2024 Annual Report (year ended 31 Dec 2024)"
+  },
+  "historicalData": {
+    "years": [
+      "FY2020",
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024"
+    ],
+    "revenue": [
+      20862,
+      21310,
+      23256,
+      25284,
+      28335
+    ],
+    "operatingProfit": [
+      2037,
+      2205,
+      2479,
+      2682,
+      3015
+    ],
+    "operatingMargin": [
+      9.8,
+      10.3,
+      10.7,
+      10.6,
+      10.6
+    ],
+    "freeCashFlow": [
+      1367,
+      1864,
+      1950,
+      2593,
+      2505
+    ],
+    "eps": [
+      44.3,
+      47.8,
+      55.5,
+      63.2,
+      68.5
+    ],
+    "dividendsPerShare": [
+      23.7,
+      25.1,
+      27.0,
+      30.0,
+      33.0
+    ]
+  },
+  "lastUpdated": "2026-03-31"
+}
