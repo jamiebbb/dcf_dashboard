@@ -3,7 +3,7 @@
   "name": "Vistry Group PLC",
   "sector": "Housebuilders",
   "industry": "Construction & Materials",
-  "description": "A UK housebuilder transitioning to a partnerships-focused model delivering mixed-tenure housing and urban regeneration. Acquired Countryside Partnerships in 2022.",
+  "description": "A partnerships-focused housebuilder delivering mixed-tenure housing and urban regeneration. Acquired Countryside in Nov 2022. Transitioned fully to partnerships model from Sep 2023. Returns cash via buybacks not dividends.",
   "modelType": "housebuilder",
   "freuCompanyId": 4771,
   "isin": "GB0001859296",
@@ -11,31 +11,31 @@
   "currency": "GBp",
   "lastPriceUpdate": "2026-03-31",
   "dcfInputs": {
-    "projectedCompletions": [16500, 17000, 17500, 18000, 18500],
-    "projectedASP": [220000, 226000, 232000, 238000, 244000],
-    "projectedMargin": [8.5, 9.5, 10.5, 11.0, 11.5],
-    "landBankValue": 3800,
-    "landBankYearsSupply": 4.2,
+    "projectedCompletions": [16000, 16500, 17000, 17500, 18000],
+    "projectedASP": [290000, 298000, 306000, 314000, 322000],
+    "projectedMargin": [9.5, 10.5, 11.5, 12.0, 12.5],
+    "landBankValue": 3325,
+    "landBankYearsSupply": 4.6,
     "discountRate": 0.075,
     "terminalGrowthRate": 0.02,
-    "sharesOutstanding": 345,
-    "netDebt": -180
+    "sharesOutstanding": 321,
+    "netDebt": 144
   },
   "assumptions": {
-    "revenueDrivers": "Completions recovery toward 18k+ from partnerships-led model. Lower ASP than private-focused peers reflecting affordable/social housing mix. Volume growth from local authority frameworks.",
-    "marginDrivers": "Partnerships model has lower but more predictable margins than traditional housebuilding. Countryside integration synergies. Operating margin recovery from FY2024 trough.",
-    "risks": "Partnerships model margin compression, local authority funding dependency, planning delays, execution risk on business model transition, profit warnings in 2024 hit credibility.",
-    "catalyst": "Successful transition to capital-light partnerships model, improved cash generation, margin recovery, housing policy support for affordable homes.",
+    "revenueDrivers": "Partnerships-led model: 74% partner funded, 26% open market in FY2025. Group ASP £282k (partner funded £246k, open market £391k). 71,501 owned and controlled plots.",
+    "marginDrivers": "Adjusted operating margin 8.5% in FY2025, targeting 12% medium term. ROCE 13.9%, targeting 40% as capital-light partnerships model matures. £828m goodwill from Countryside.",
+    "risks": "£304m building safety provision. South division cost forecasting issues (FY2024). Net debt £144m. Transition execution risk. Partner funded volumes dependent on housing association/local authority funding.",
+    "catalyst": "Capital-light partnerships model should improve ROCE significantly. Net debt reducing (down £37m in FY2025). Share buybacks shrinking share count (321m from 347m). Medium-term margin target of 12%.",
     "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Dec 2025)"
   },
   "historicalData": {
     "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
-    "revenue": [2730, 3530, 3880, 3490, 3620],
-    "completions": [11080, 14420, 16010, 15220, 15800],
-    "operatingProfit": [342, 468, 415, 205, 285],
-    "operatingMargin": [12.5, 13.3, 10.7, 5.9, 7.9],
-    "eps": [78.0, 107.0, 95.0, 42.0, 58.0],
-    "dividendsPerShare": [33.0, 45.0, 40.0, 20.0, 25.0]
+    "revenue": [2407, 2771, 3564, 3779, 3614],
+    "completions": [11080, 11951, 16118, 17225, 15658],
+    "operatingProfit": [368, 451, 488, 358, 354],
+    "operatingMargin": [14.0, 15.0, 12.0, 8.3, 8.5],
+    "eps": [125.5, 137.5, 88.2, 55.9, 59.3],
+    "dividendsPerShare": [60.0, 63.0, 32.0, 0, 0]
   },
   "lastUpdated": "2026-03-31"
 }
