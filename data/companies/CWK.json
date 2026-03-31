@@ -1,0 +1,37 @@
+{
+  "ticker": "CWK",
+  "name": "Cranswick PLC",
+  "sector": "Consumer Staples",
+  "industry": "Food Producers",
+  "description": "A leading UK food producer with revenue of over £2.7 billion, producing and supplying premium pork, poultry, convenience foods and pet food to UK grocery retailers, food service and export markets. Vertically integrated farm-to-fork model with growing pig and poultry farming operations.",
+  "modelType": "standard",
+  "freuCompanyId": 4718,
+  "isin": "GB0002318888",
+  "currentPrice": 4200,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [220, 230, 245, 260, 275],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 54.2,
+    "netDebt": 172.4
+  },
+  "assumptions": {
+    "revenueDrivers": "UK grocery retail demand for premium pork, poultry, convenience and Mediterranean foods. Revenue £2,723m in FY2025 (+6.8% on 52-week basis). Poultry revenue grew 20%+ and now 19.6% of group. Pet food revenue +48%. 10-year sole supply deal with Sainsbury's. China export licence reinstated.",
+    "marginDrivers": "Adjusted operating margin improved to 7.6% in FY2025 (from 7.1%), driven by growing pig farming contribution, excellent capacity utilisation, and tight cost control. Vertical integration deepening with pig self-sufficiency approaching 55%. Record £138m capex investment.",
+    "risks": "UK consumer spending pressure, pig/poultry disease risk (ASF, avian influenza, FMD), commodity input cost volatility, customer concentration (top 4 = 60% of revenue), rising net debt (£172m vs £99m prior year) from record capex and acquisitions, planning system delays on expansion projects.",
+    "catalyst": "Poultry capacity expansion (£50m+ investment), Hull primary processing upgrade to 50,000 pigs/week, JSR Genetics integration driving production efficiency, Worsley houmous facility ramp-up, Blakemans food service acquisition, continued dividend growth (35 consecutive years).",
+    "lastReportAnalysed": "FY2025 Annual Report (52 weeks ended 29 March 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [1898.4, 2008.5, 2323.0, 2599.3, 2723.3],
+    "operatingProfit": [132.9, 140.6, 146.5, 185.1, 206.9],
+    "operatingMargin": [7.0, 7.0, 6.3, 7.1, 7.6],
+    "freeCashFlow": [180.9, 158.4, 149.2, 223.4, 213.6],
+    "eps": [199.3, 205.4, 210.0, 242.8, 273.4],
+    "dividendsPerShare": [70.0, 75.6, 79.4, 90.0, 101.0]
+  },
+  "lastUpdated": "2026-03-31"
+}

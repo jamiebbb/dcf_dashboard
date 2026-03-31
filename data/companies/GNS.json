@@ -1,0 +1,37 @@
+{
+  "ticker": "GNS",
+  "name": "Genus PLC",
+  "sector": "Consumer Staples",
+  "industry": "Animal Genetics",
+  "description": "The world's leading animal genetics company, improving livestock health and productivity for farmers through elite porcine (PIC) and bovine (ABS) genetics, sexing technology and gene editing.",
+  "modelType": "standard",
+  "freuCompanyId": 4873,
+  "isin": "GB0002074580",
+  "currentPrice": 1800,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [45, 50, 55, 60, 65],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 66,
+    "netDebt": 228
+  },
+  "assumptions": {
+    "revenueDrivers": "Global demand for animal protein driving genetic improvement. Revenue £672.8m in FY2025 (+1% actual, +5% constant currency). PIC porcine revenue £362.9m (+8% CC), ABS bovine revenue £307.7m (+2% CC). Royalty revenue model provides visibility. PRP gene edit FDA-approved — commercialisation opportunity ahead.",
+    "marginDrivers": "Adjusted operating profit exc JVs rose 21% to £81.1m in FY2025 (margin 12.1%). PIC margin 27.6% exc JV. ABS margin improved to 6.3% via Value Acceleration Programme (VAP) — £11.8m benefit in FY25, Phase 3 targeting further £9m annualised benefit. R&D spend declining as % of revenue (2.5% in FY25).",
+    "risks": "FX exposure (significant Mexican Peso, Brazilian Real headwinds — £8.5m translation impact in FY2025). China market volatility. Disease outbreaks (ASF, PRRSv, BRD). PRP commercialisation execution risk and regulatory approvals in key export markets. Net debt of £228m (1.5x EBITDA). Biological asset valuation volatility under IAS 41.",
+    "catalyst": "PRP gene edit commercialisation in US and international markets. VAP Phase 3 delivering further ABS margin improvement. Strong cash conversion (114% in FY2025). Royalty revenue growth in PIC China. Sexcel/IntelliGen sexing technology expansion.",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 30 June 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [574.3, 593.4, 689.7, 668.8, 672.8],
+    "operatingProfit": [76.9, 68.8, 75.5, 67.0, 81.1],
+    "operatingMargin": [13.4, 11.6, 10.9, 10.0, 12.1],
+    "freeCashFlow": [37.5, -13.5, 18.2, -3.2, 40.9],
+    "eps": [100.9, 82.7, 84.8, 65.5, 81.8],
+    "dividendsPerShare": [32.0, 32.0, 32.0, 32.0, 32.0]
+  },
+  "lastUpdated": "2026-03-31"
+}
