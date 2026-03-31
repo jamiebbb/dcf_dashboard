@@ -1,0 +1,37 @@
+{
+  "ticker": "ROR",
+  "name": "Rotork PLC",
+  "sector": "Industrials",
+  "industry": "Industrial Engineering",
+  "description": "Global provider of mission-critical flow control and instrumentation solutions for oil & gas, water, power and industrial applications. High-margin, asset-light, net cash business with 38% ROCE.",
+  "modelType": "standard",
+  "freuCompanyId": 4645,
+  "isin": "GB0007530149",
+  "currentPrice": 370,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [115, 120, 128, 135, 142],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 829,
+    "netDebt": -65
+  },
+  "assumptions": {
+    "revenueDrivers": "Revenue £777m in FY2025 (+3.0%). Growth driven by energy transition (hydrogen, carbon capture), water infrastructure investment, and process automation. Order book momentum across all divisions.",
+    "marginDrivers": "Adjusted operating margin 24.6% and expanding (+100bps YoY). Operational leverage, mix shift to higher-margin aftermarket and Specialist products. Cash conversion ~101%.",
+    "risks": "Oil & gas capex cyclicality, FX exposure (>75% non-GBP revenue), commodity cost inflation, competition from Emerson/Flowserve. Net cash declining from £125m to £65m as buybacks increase.",
+    "catalyst": "Energy transition capex, water infrastructure spending, aftermarket growth, progressive dividend (+7% pa), share buybacks (£60m in FY2025, shares down from 846m to 829m).",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Dec 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [569, 642, 719, 754, 777],
+    "operatingProfit": [128, 143, 165, 178, 192],
+    "operatingMargin": [22.5, 22.3, 22.9, 23.6, 24.6],
+    "freeCashFlow": [120, 120, 120, 120, 107],
+    "eps": [11.3, 12.7, 14.6, 15.9, 17.0],
+    "dividendsPerShare": [6.4, 6.7, 7.2, 7.75, 8.3]
+  },
+  "lastUpdated": "2026-03-31"
+}
