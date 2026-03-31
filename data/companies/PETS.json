@@ -1,0 +1,37 @@
+{
+  "ticker": "PETS",
+  "name": "Pets at Home Group PLC",
+  "sector": "Retail",
+  "industry": "General Retailers",
+  "description": "The UK's leading integrated pet care business with pet care centres, vet practices, grooming services and online retail. Defensive consumer spending on pet health and nutrition.",
+  "modelType": "standard",
+  "freuCompanyId": 4909,
+  "isin": "GB00BJ62K685",
+  "currentPrice": 300,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [85, 90, 95, 100, 105],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 460,
+    "netDebt": -6
+  },
+  "assumptions": {
+    "revenueDrivers": "Revenue £1,482m in FY2025 (flat YoY). UK pet population ~35m, growing humanisation trend. Vet services and grooming expanding. Online channel growing. 4 new stores pa.",
+    "marginDrivers": "Underlying operating margin 10.0% in FY2025 (up from 9.8%). Integrated pet care model (retail + vets + grooming) drives higher customer lifetime value. Subscription services growing.",
+    "risks": "Consumer spending pressure on discretionary pet products, vet recruitment challenges, competition from online pure-plays, IFRS 16 lease liabilities £348m. Revenue growth stalling (0.1% in FY2025).",
+    "catalyst": "Pet care market structural growth, vet practice expansion, grooming salon rollout, subscription penetration, progressive dividend, ongoing buybacks (shares 483m→460m over 3 years).",
+    "lastReportAnalysed": "FY2025 Annual Report (52w ended 27 Mar 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2023", "FY2024", "FY2025"],
+    "revenue": [1404, 1480, 1482],
+    "operatingProfit": [136, 146, 149],
+    "operatingMargin": [9.7, 9.8, 10.0],
+    "freeCashFlow": [98, 69, 84],
+    "eps": [20.7, 20.7, 21.0],
+    "dividendsPerShare": [12.8, 12.8, 13.0]
+  },
+  "lastUpdated": "2026-03-31"
+}
