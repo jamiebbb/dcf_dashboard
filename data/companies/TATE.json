@@ -3,7 +3,7 @@
   "name": "Tate & Lyle PLC",
   "sector": "Food & Beverage",
   "industry": "Food Producers",
-  "description": "A global provider of specialty food and beverage ingredients including sweeteners, texturants, and dietary fibres. Transformed into a pure-play specialty ingredients business after the 2022 disposal of Primary Products.",
+  "description": "A global provider of specialty food ingredients including sweeteners, texturants, and dietary fibres. Sold Primient (Primary Products) in 2022. Acquired CP Kelco (pectin/speciality gums) in Nov 2024 for ~US$1.8bn.",
   "modelType": "standard",
   "freuCompanyId": 4590,
   "isin": "GB0008754136",
@@ -11,27 +11,27 @@
   "currency": "GBp",
   "lastPriceUpdate": "2026-03-31",
   "dcfInputs": {
-    "projectedFCF": [145, 155, 165, 175, 185],
+    "projectedFCF": [210, 225, 240, 255, 270],
     "discountRate": 0.075,
     "terminalGrowthRate": 0.02,
-    "sharesOutstanding": 381,
-    "netDebt": 450
+    "sharesOutstanding": 409,
+    "netDebt": 961
   },
   "assumptions": {
-    "revenueDrivers": "Volume-led growth in specialty sweeteners and texturants, driven by health and wellness trends (sugar reduction, fibre fortification). Emerging market expansion, particularly in Asia.",
-    "marginDrivers": "Shift to higher-value specialty ingredients. Innovation pipeline driving mix improvement. Acquisition of CP Kelco (2024) adds high-margin pectin/cellulose gum business.",
-    "risks": "Raw material cost volatility (corn, tapioca), FX exposure (significant USD earnings), integration risk from CP Kelco acquisition, competitive pressure from Ingredion and ADM.",
-    "catalyst": "CP Kelco synergy realisation, new product launches in health-focused ingredients, emerging market growth, and potential further portfolio reshaping.",
+    "revenueDrivers": "FY2025 revenue £1,736m (includes CP Kelco £224m from Nov 2024). Pro forma full-year revenue ~£2,124m. Volume-led growth in specialty sweeteners, texturants and CP Kelco pectin/gums. Health and wellness megatrend (sugar reduction, fibre fortification).",
+    "marginDrivers": "Adjusted EBITDA margin expanding: 17.2%→21.9% over 5 years (+350bps). CP Kelco adds high-margin business. FY2025 adjusted operating profit £288m. Productivity savings programme delivering ~US$50m pa.",
+    "risks": "Net debt £961m (2.2x pro forma EBITDA) from CP Kelco. Covenant at 3.5x (temporarily 4.0x). FX exposure (significant USD earnings). Raw material cost volatility. Integration execution risk. 75m new shares diluted existing holders.",
+    "catalyst": "CP Kelco synergy realisation, full-year profit contribution from FY2026. Adjusted EBITDA margin targeting continued expansion. Cash conversion 82% in FY2025 vs 75% target.",
     "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Mar 2025)"
   },
   "historicalData": {
     "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
-    "revenue": [1210, 1326, 1600, 1430, 1740],
-    "operatingProfit": [170, 196, 238, 222, 260],
-    "operatingMargin": [14.0, 14.8, 14.9, 15.5, 14.9],
-    "freeCashFlow": [115, 135, 160, 145, 155],
-    "eps": [28.5, 35.2, 42.1, 38.5, 44.0],
-    "dividendsPerShare": [18.3, 19.0, 19.6, 20.2, 20.8]
+    "revenue": [1211, 1375, 1751, 1647, 1736],
+    "operatingProfit": [163, 163, 249, 258, 288],
+    "operatingMargin": [13.5, 11.9, 14.2, 15.7, 16.6],
+    "freeCashFlow": [76, 76, 120, 170, 190],
+    "eps": [19.1, 40.4, 49.6, 49.1, 50.3],
+    "dividendsPerShare": [18.1, 21.8, 18.5, 19.1, 19.8]
   },
   "lastUpdated": "2026-03-31"
 }
