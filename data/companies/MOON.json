@@ -1,0 +1,37 @@
+{
+  "ticker": "MOON",
+  "name": "Moonpig Group PLC",
+  "sector": "Technology",
+  "industry": "E-commerce",
+  "description": "Online greeting cards, gifts and experiences platform. 70% UK online card market share, 12m active customers. Asset-light, negative working capital, 28% EBITDA margin. IPO'd Feb 2021.",
+  "modelType": "standard",
+  "freuCompanyId": 5056,
+  "isin": "GB00BMT9K014",
+  "currentPrice": 130,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [68, 72, 76, 80, 84],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 334,
+    "netDebt": 96
+  },
+  "assumptions": {
+    "revenueDrivers": "Revenue £350m in FY2025 (+2.6%). Moonpig brand +8.6%. 12m active customers, 2.94 orders/customer. Plus subscriptions 920k members. UK online card market only 6% penetrated by volume. International expansion (Ireland, Australia, US).",
+    "marginDrivers": "Adjusted EBITDA margin 27.6%. Gross margin 59.6%. Asset-light, negative working capital. Moonpig segment margin 31.2%. Capex ~3.8% of revenue.",
+    "risks": "Greetz declining. Experiences segment challenged (£57m goodwill impairment FY2025). Net debt £96m (1.0x leverage). FY2021 revenue was COVID-boosted (£368m). Reported EPS loss in FY2025.",
+    "catalyst": "Mid-teens adjusted EPS growth target. £60m buyback planned FY2026. Inaugural 3.0p dividend. AI personalisation. International expansion. Only 6% UK volume penetration.",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 30 Apr 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [368, 304, 320, 341, 350],
+    "operatingProfit": [80, 61, 62, 78, 78],
+    "operatingMargin": [21.8, 19.9, 19.2, 22.9, 22.2],
+    "freeCashFlow": [54, 54, 35, 61, 66],
+    "eps": [6.1, 12.3, 11.1, 12.7, 15.0],
+    "dividendsPerShare": [0, 0, 0, 0, 3.0]
+  },
+  "lastUpdated": "2026-03-31"
+}
