@@ -14,7 +14,7 @@
     "projectedFCF": [280, 295, 310, 325, 340],
     "discountRate": 0.075,
     "terminalGrowthRate": 0.02,
-    "sharesOutstanding": 106,
+    "sharesOutstanding": 101.7,
     "netDebt": -139
   },
   "assumptions": {
