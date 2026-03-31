@@ -1,0 +1,85 @@
+{
+  "ticker": "COA",
+  "name": "Coats Group PLC",
+  "sector": "Industrials",
+  "industry": "General Industrials",
+  "description": "World-leading manufacturer of industrial thread and structural components for the apparel and footwear industries. Global operations in 50+ countries with c.19,000 employees. Acquired OrthoLite (premium insoles) in Oct 2025. Reports in USD, converted to GBP at 1.27.",
+  "modelType": "standard",
+  "freuCompanyId": 4606,
+  "isin": "GB00B4YZN328",
+  "currentPrice": 90,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [
+      145,
+      155,
+      165,
+      175,
+      185
+    ],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 1917,
+    "netDebt": 642
+  },
+  "assumptions": {
+    "revenueDrivers": "Revenue $1,465m in FY2025 (flat organic, +2% reported). Global market leader in premium thread (~27% Apparel share, ~30% Footwear share). OrthoLite acquisition adds premium insoles. Target >5% revenue CAGR through the cycle. Recycled thread revenue $554m (+43% CER). Target adjacencies (safety fabrics, energy tapes, Coats Digital) contributed 1% of Group revenue growth.",
+    "marginDrivers": "Adjusted EBIT margin 19.8% in FY2025 (+80bps). Upgraded medium-term target to 21-23% (from 19-21%) following OrthoLite addition. Pricing discipline, operational excellence and mix improvement. OrthoLite margin accretive. Apparel margin 20.2%, Footwear 23.9%.",
+    "risks": "Net debt $815m / leverage 2.2x following OrthoLite acquisition (target <2x by end 2026). FX exposure (reports in USD, UK-listed). Tariff uncertainty from April 2025. Consumer demand cyclicality. Adj EPS declined 5% in FY2025 due to higher interest and dilution from equity raise. Integration risk with OrthoLite.",
+    "catalyst": "OrthoLite integration synergies ($20m annualised by 2028). Deleveraging to <2x by end 2026. Upgraded medium-term target: c.$1bn cumulative FCF over 5 years. New two-division structure (Apparel + Footwear) from H1 2026. Record FCF of $160m in FY2025 (pre-dividends/M&A). Progressive dividend (+5% in FY2025).",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Dec 2025)"
+  },
+  "historicalData": {
+    "years": [
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024",
+      "FY2025"
+    ],
+    "revenue": [
+      1010,
+      1112,
+      1044,
+      1128,
+      1154
+    ],
+    "operatingProfit": [
+      157,
+      176,
+      186,
+      214,
+      228
+    ],
+    "operatingMargin": [
+      15.5,
+      15.8,
+      17.9,
+      19.0,
+      19.8
+    ],
+    "freeCashFlow": [
+      97,
+      90,
+      103,
+      125,
+      145
+    ],
+    "eps": [
+      5.6,
+      6.3,
+      6.3,
+      7.6,
+      7.3
+    ],
+    "dividendsPerShare": [
+      1.7,
+      1.9,
+      2.2,
+      2.5,
+      2.6
+    ]
+  },
+  "lastUpdated": "2026-03-31"
+}
