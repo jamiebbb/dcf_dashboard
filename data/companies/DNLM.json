@@ -1,0 +1,37 @@
+{
+  "ticker": "DNLM",
+  "name": "Dunelm Group PLC",
+  "sector": "Retail",
+  "industry": "General Retailers",
+  "description": "The UK's leading homewares retailer with 180+ stores plus a growing digital platform, offering affordable and high-quality home essentials.",
+  "modelType": "standard",
+  "freuCompanyId": 4857,
+  "isin": "GB00B1CKQ739",
+  "currentPrice": 1100,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [165, 175, 185, 195, 200],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 202,
+    "netDebt": -65
+  },
+  "assumptions": {
+    "revenueDrivers": "Market share gains in UK homewares (currently ~10% share). Digital channel growth, new store openings (target 200 stores), and average basket growth.",
+    "marginDrivers": "Operational efficiency, direct sourcing benefits, and digital mix shift. Gross margin expected to remain in 50-52% range.",
+    "risks": "Consumer confidence sensitivity, housing market dependency, competitive pressure from online retailers, cost inflation in shipping and raw materials.",
+    "catalyst": "Continued market share gains, store rollout to 200+, digital penetration beyond 35%, and international expansion potential.",
+    "lastReportAnalysed": "FY2025 Annual Report (52w ended 28 Jun 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [1336, 1559, 1639, 1714, 1780],
+    "operatingProfit": [196, 226, 210, 218, 232],
+    "operatingMargin": [14.7, 14.5, 12.8, 12.7, 13.0],
+    "freeCashFlow": [195, 180, 155, 162, 170],
+    "eps": [75.4, 87.5, 79.6, 82.1, 88.0],
+    "dividendsPerShare": [55.0, 72.0, 62.0, 63.0, 67.0]
+  },
+  "lastUpdated": "2026-03-31"
+}

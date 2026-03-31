@@ -1,0 +1,41 @@
+{
+  "ticker": "CRST",
+  "name": "Crest Nicholson Holdings PLC",
+  "sector": "Housebuilders",
+  "industry": "Construction & Materials",
+  "description": "A housebuilder focused on sustainable homes and master-planned communities across southern England, with a recovery plan following operational challenges.",
+  "modelType": "housebuilder",
+  "freuCompanyId": 5319,
+  "isin": "GB00B8VZXT93",
+  "currentPrice": 180,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedCompletions": [2200, 2500, 2800, 3100, 3300],
+    "projectedASP": [365000, 372000, 380000, 388000, 396000],
+    "projectedMargin": [6.0, 8.0, 10.0, 11.5, 12.0],
+    "landBankValue": 1200,
+    "landBankYearsSupply": 5.5,
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 257,
+    "netDebt": -30
+  },
+  "assumptions": {
+    "revenueDrivers": "Volume recovery from cyclical trough toward 3,000+ completions. Focused on southern England markets with higher ASPs. Strategic land pipeline conversion.",
+    "marginDrivers": "Margin recovery from very depressed levels. New CEO driving operational turnaround. Build cost efficiencies and improved site productivity. Legacy ground remediation costs declining.",
+    "risks": "Execution risk on turnaround plan, interest rate sensitivity, southern England land prices, planning delays, balance sheet constraints limiting land investment, takeover target risk.",
+    "catalyst": "Volume recovery, margin normalisation, planning reform benefits, potential M&A interest from larger builders.",
+    "lastReportAnalysed": "FY2024 Annual Report (year ended 31 Oct 2024)"
+  },
+  "historicalData": {
+    "years": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
+    "revenue": [733, 866, 942, 619, 526],
+    "completions": [1950, 2407, 2734, 1786, 1604],
+    "operatingProfit": [15, 113, 128, -18, -35],
+    "operatingMargin": [2.0, 13.0, 13.6, -2.9, -6.7],
+    "eps": [1.5, 31.0, 37.5, -11.0, -18.0],
+    "dividendsPerShare": [0, 11.5, 16.6, 3.3, 0]
+  },
+  "lastUpdated": "2026-03-31"
+}

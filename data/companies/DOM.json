@@ -1,0 +1,37 @@
+{
+  "ticker": "DOM",
+  "name": "Domino's Pizza Group PLC",
+  "sector": "Food & Beverage",
+  "industry": "Leisure Goods & Travel",
+  "description": "The master franchisee for Domino's Pizza in the UK, Ireland, and select European markets. Asset-light franchise model with high cash generation.",
+  "modelType": "standard",
+  "freuCompanyId": 5314,
+  "isin": "GB00BYN59130",
+  "currentPrice": 350,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [105, 115, 125, 130, 135],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 385,
+    "netDebt": 430
+  },
+  "assumptions": {
+    "revenueDrivers": "System sales growth from new store openings (1,300+ UK stores target), menu innovation, digital ordering penetration (90%+), and like-for-like order growth.",
+    "marginDrivers": "Franchise model means high incremental margins on system sales growth. Royalty and rental income streams. Operating leverage as stores mature.",
+    "risks": "Franchisee profitability pressure from cost inflation, consumer spending weakness, competitive delivery market (Just Eat, Uber Eats), significant leverage from buybacks.",
+    "catalyst": "Store rollout toward 1,600 target, delivery market growth, collection channel strength, and continued capital returns via buybacks.",
+    "lastReportAnalysed": "FY2025 Annual Report (52w ended 28 Dec 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [561, 596, 639, 675, 710],
+    "operatingProfit": [108, 106, 118, 126, 135],
+    "operatingMargin": [19.3, 17.8, 18.5, 18.7, 19.0],
+    "freeCashFlow": [82, 90, 98, 105, 112],
+    "eps": [15.8, 19.5, 23.8, 27.2, 30.5],
+    "dividendsPerShare": [9.7, 10.5, 11.2, 12.0, 13.0]
+  },
+  "lastUpdated": "2026-03-31"
+}

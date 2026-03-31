@@ -1,0 +1,41 @@
+{
+  "ticker": "VTY",
+  "name": "Vistry Group PLC",
+  "sector": "Housebuilders",
+  "industry": "Construction & Materials",
+  "description": "A UK housebuilder transitioning to a partnerships-focused model delivering mixed-tenure housing and urban regeneration. Acquired Countryside Partnerships in 2022.",
+  "modelType": "housebuilder",
+  "freuCompanyId": 4771,
+  "isin": "GB0001859296",
+  "currentPrice": 680,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedCompletions": [16500, 17000, 17500, 18000, 18500],
+    "projectedASP": [220000, 226000, 232000, 238000, 244000],
+    "projectedMargin": [8.5, 9.5, 10.5, 11.0, 11.5],
+    "landBankValue": 3800,
+    "landBankYearsSupply": 4.2,
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 345,
+    "netDebt": -180
+  },
+  "assumptions": {
+    "revenueDrivers": "Completions recovery toward 18k+ from partnerships-led model. Lower ASP than private-focused peers reflecting affordable/social housing mix. Volume growth from local authority frameworks.",
+    "marginDrivers": "Partnerships model has lower but more predictable margins than traditional housebuilding. Countryside integration synergies. Operating margin recovery from FY2024 trough.",
+    "risks": "Partnerships model margin compression, local authority funding dependency, planning delays, execution risk on business model transition, profit warnings in 2024 hit credibility.",
+    "catalyst": "Successful transition to capital-light partnerships model, improved cash generation, margin recovery, housing policy support for affordable homes.",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Dec 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [2730, 3530, 3880, 3490, 3620],
+    "completions": [11080, 14420, 16010, 15220, 15800],
+    "operatingProfit": [342, 468, 415, 205, 285],
+    "operatingMargin": [12.5, 13.3, 10.7, 5.9, 7.9],
+    "eps": [78.0, 107.0, 95.0, 42.0, 58.0],
+    "dividendsPerShare": [33.0, 45.0, 40.0, 20.0, 25.0]
+  },
+  "lastUpdated": "2026-03-31"
+}

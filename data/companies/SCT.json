@@ -1,0 +1,37 @@
+{
+  "ticker": "SCT",
+  "name": "Softcat PLC",
+  "sector": "Technology",
+  "industry": "Software & Computer Services",
+  "description": "A leading UK IT infrastructure and services provider, supplying hardware, software and services to corporate and public sector customers.",
+  "modelType": "standard",
+  "freuCompanyId": 5331,
+  "isin": "GB00BYZDVK82",
+  "currentPrice": 1700,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [115, 130, 145, 160, 175],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 200,
+    "netDebt": -185
+  },
+  "assumptions": {
+    "revenueDrivers": "Customer account growth (~15,000 customers), cross-selling additional IT solutions, public sector digitalisation, cloud migration spend, and cybersecurity demand.",
+    "marginDrivers": "Operating leverage from revenue growth on relatively fixed cost base. Gross margin ~20% on gross invoiced income. Asset-light model with high cash conversion (>100%).",
+    "risks": "Macro-driven IT spending delays, vendor concentration (Microsoft, Cisco), competition from CDW/Insight, talent retention in tight labour market.",
+    "catalyst": "Continued customer acquisition, average customer spend growth, public sector framework wins, and potential entry into adjacent markets.",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Jul 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [1157, 1470, 1770, 1920, 2150],
+    "operatingProfit": [105, 138, 168, 183, 205],
+    "operatingMargin": [9.1, 9.4, 9.5, 9.5, 9.5],
+    "freeCashFlow": [85, 110, 125, 135, 155],
+    "eps": [42.4, 54.2, 65.8, 73.1, 82.0],
+    "dividendsPerShare": [25.2, 32.0, 38.6, 43.2, 48.0]
+  },
+  "lastUpdated": "2026-03-31"
+}

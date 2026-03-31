@@ -1,0 +1,37 @@
+{
+  "ticker": "TATE",
+  "name": "Tate & Lyle PLC",
+  "sector": "Food & Beverage",
+  "industry": "Food Producers",
+  "description": "A global provider of specialty food and beverage ingredients including sweeteners, texturants, and dietary fibres. Transformed into a pure-play specialty ingredients business after the 2022 disposal of Primary Products.",
+  "modelType": "standard",
+  "freuCompanyId": 4590,
+  "isin": "GB0008754136",
+  "currentPrice": 700,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [145, 155, 165, 175, 185],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 381,
+    "netDebt": 450
+  },
+  "assumptions": {
+    "revenueDrivers": "Volume-led growth in specialty sweeteners and texturants, driven by health and wellness trends (sugar reduction, fibre fortification). Emerging market expansion, particularly in Asia.",
+    "marginDrivers": "Shift to higher-value specialty ingredients. Innovation pipeline driving mix improvement. Acquisition of CP Kelco (2024) adds high-margin pectin/cellulose gum business.",
+    "risks": "Raw material cost volatility (corn, tapioca), FX exposure (significant USD earnings), integration risk from CP Kelco acquisition, competitive pressure from Ingredion and ADM.",
+    "catalyst": "CP Kelco synergy realisation, new product launches in health-focused ingredients, emerging market growth, and potential further portfolio reshaping.",
+    "lastReportAnalysed": "FY2025 Annual Report (year ended 31 Mar 2025)"
+  },
+  "historicalData": {
+    "years": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+    "revenue": [1210, 1326, 1600, 1430, 1740],
+    "operatingProfit": [170, 196, 238, 222, 260],
+    "operatingMargin": [14.0, 14.8, 14.9, 15.5, 14.9],
+    "freeCashFlow": [115, 135, 160, 145, 155],
+    "eps": [28.5, 35.2, 42.1, 38.5, 44.0],
+    "dividendsPerShare": [18.3, 19.0, 19.6, 20.2, 20.8]
+  },
+  "lastUpdated": "2026-03-31"
+}
