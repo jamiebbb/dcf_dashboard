@@ -1,0 +1,85 @@
+{
+  "ticker": "RSW",
+  "name": "Renishaw PLC",
+  "sector": "Industrials",
+  "industry": "Electronic & Electrical Equipment",
+  "description": "A world leader in precision measurement and manufacturing systems, providing metrology sensors, position encoders, calibration equipment, additive manufacturing systems, spectroscopy instruments and neurological surgical products. FY ends 30 June.",
+  "modelType": "standard",
+  "freuCompanyId": 5268,
+  "isin": "GB0007323586",
+  "currentPrice": 3400,
+  "currency": "GBp",
+  "lastPriceUpdate": "2026-03-31",
+  "dcfInputs": {
+    "projectedFCF": [
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "discountRate": 0.075,
+    "terminalGrowthRate": 0.02,
+    "sharesOutstanding": 72.8,
+    "netDebt": -215
+  },
+  "assumptions": {
+    "revenueDrivers": "Global precision manufacturing demand across industrial metrology, position measurement, additive manufacturing, spectroscopy and neurological devices. Revenue £691.3m in FY2024 (+0.4%, +3.7% at constant FX). Strong APAC and Americas growth offset by EMEA softness. £6bn total addressable market growing >5% p.a.",
+    "marginDrivers": "Adjusted operating margin 15.7% in FY2024 (down from 18.9% in FY2023) due to adverse FX, labour cost inflation and severance costs. Targeting >20% adjusted operating margin through productivity improvements and operating leverage on higher volumes. Gross margin 61% (FY2023: 64%).",
+    "risks": "Cyclical exposure to semiconductor, automotive and aerospace markets. FX exposure (>94% overseas revenue, GBP reporting). Emerging Chinese competitors creating pricing pressure. Heavy capex cycle (Miskin facility expansion). ERP transformation risk. Concentrated founding shareholder ownership (53%).",
+    "catalyst": "Semiconductor cycle recovery driving encoder demand. Systems sales growth (Equator, AGILITY CMMs). TEMPUS technology reducing AM build times by 50%. Industrial automation product line expansion. Miskin capacity expansion enabling future growth. Reducing capex from peak levels improving FCF conversion.",
+    "lastReportAnalysed": "FY2024 Annual Report (year ended 30 June 2024)"
+  },
+  "historicalData": {
+    "years": [
+      "FY2020",
+      "FY2021",
+      "FY2022",
+      "FY2023",
+      "FY2024"
+    ],
+    "revenue": [
+      510.2,
+      565.6,
+      671.1,
+      688.6,
+      691.3
+    ],
+    "operatingProfit": [
+      51.7,
+      118.6,
+      161.4,
+      130.4,
+      108.7
+    ],
+    "operatingMargin": [
+      10.1,
+      21.0,
+      24.1,
+      18.9,
+      15.7
+    ],
+    "freeCashFlow": [
+      52,
+      119,
+      161,
+      7.4,
+      53.6
+    ],
+    "eps": [
+      51.0,
+      132.0,
+      185.5,
+      155.1,
+      133.2
+    ],
+    "dividendsPerShare": [
+      0.0,
+      66.0,
+      72.6,
+      76.2,
+      76.2
+    ]
+  },
+  "lastUpdated": "2026-03-31"
+}
